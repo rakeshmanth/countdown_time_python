@@ -1,0 +1,13 @@
+import datetime
+from time import sleep
+cth = int(input("Please enter Hours: "))
+ctm = int(input("Please enter Min: "))
+cts = int(input("Please enter Sec: "))
+
+ctt = (cth*60*60) + (ctm*60) + cts
+t = 0 
+while(int(t<ctt)):
+     print(ctt)
+     sleep(1)
+     ctt -=1
+print("Time is over!!!")
